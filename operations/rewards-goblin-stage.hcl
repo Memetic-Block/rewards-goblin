@@ -82,7 +82,7 @@ job "rewards-goblin-stage" {
 
         check {
           type     = "http"
-          path     = "/health"
+          path     = "/"
           interval = "10s"
           timeout  = "10s"
         }
