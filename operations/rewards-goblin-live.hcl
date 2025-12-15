@@ -44,7 +44,7 @@ job "rewards-goblin-live" {
         PORT="${NOMAD_PORT_http}"
         REDIS_MODE="standalone"
         AO_WALLET_JWK_PATH="/usr/src/app/wallet.json"
-        AO_CHEESE_MINT_PROCESS_ID="TODO"
+        AO_CHEESE_MINT_PROCESS_ID="uvwZhbu8XTiS3vGlgn7OlaEV_r84opf7VjoNns0w3kY"
       }
 
       template {
