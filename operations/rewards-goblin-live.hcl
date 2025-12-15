@@ -57,7 +57,7 @@ job "rewards-goblin-live" {
         CONTAINER_REGISTRY_ADDR="{{ .Address }}:{{ .Port }}"
         {{- end }}
         {{- range service "wuzzy-cu" }}
-        CU_URL="https://{{ .Address }}:{{ .Port }}"
+        CU_URL="http://{{ .Address }}:{{ .Port }}"
         {{- end }}
         EOF
         env = true
