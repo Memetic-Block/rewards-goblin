@@ -40,6 +40,7 @@ job "rewards-goblin-live" {
       }
 
       env {
+        LOG_LEVEL="info"
         VERSION="[[ .commit_sha ]]"
         PORT="${NOMAD_PORT_http}"
         REDIS_MODE="standalone"
